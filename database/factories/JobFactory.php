@@ -20,7 +20,6 @@ class JobFactory extends Factory
             'title'=>fake()->jobTitle(),
             'employer_id'=>Employer::factory(),
             'salary'=>'$50,0000'
-
             //
         ];
     }
